@@ -91,3 +91,21 @@
 - ALB(Application, EC2가함) :  TCP 80, HTTP, HTTPS Header 값을 가지고, L7
 - NLB(network, HperPlane) : TCP, UDP
 - GLB(Gateway) : 서드파티 가상 어플라이언스 
+
+## VPC 피어링
+
+
+## transit gateway
+
+
+## VPC 엔드포인트
+S3, dyna, sqs 글로벌 서비스는 인터넷 통해서 접속
+
+## 엣지 로케이션
+- 지연시간이 짧고 처리량이 높은 네트워크 연결 제공
+- 전 세계 주요 도시에서 운영
+
+### Amazon CloudFront (CDN, 캐싱)
+
+## Amzon Route 53 (DNS)
+- 리전 장애 해결도 해줌
