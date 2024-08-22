@@ -1,12 +1,13 @@
 # aws_networking
 
-실습 주소 : https://tinyurl.com/y8d7edcf
+실습 주소(이번주 금요일 까지)
+> https://tinyurl.com/y8d7edcf
 
 - 첫시간
 5단계 간략 설명, 실습은 알아서.
 
 ## 1. AWS 기반 네트워킹
-
+![alt text](AWS_기반_네트워킹.png)
 ## 2. AWS에서의 로드 밸런싱 및 크기 조정
 
 ## 3. VPC 상호 연결 및 콘텐츠 전송
