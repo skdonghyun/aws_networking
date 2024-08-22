@@ -77,3 +77,15 @@
 - IF 레벨에서 검사
 - ex) db<-> app
 - 기본 규칙은 모든 아웃바운드 허용, 모든 인바운드 트래픽 차단
+
+## N.F(netwrk firewall)
+- vpc 용 방어벽
+
+## app 배포 방법
+- EC2 (os/app)
+- Container
+- S3
+- 람다
+
+## ELB(Elastic load balancer)
+- VPC -> ELB -> 가용 영역 A, 가용 영역 B
