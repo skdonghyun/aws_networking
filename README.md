@@ -11,7 +11,6 @@
 - 가용영역 :  논리적인 그룹, aws 3개 이상의 가용영역 있음, 100~150km
 - subnet은 가용영역 단위에 배포
 - VPC와 subnet ip 비트 단위 찾아보기
-![alt text](AWS_기반_네트워킹1.png)
 
 - 클래스 없는 도메인 간 라우팅(CIDR) <- CIDR 찾아보기
     - CIDR 표기법은 IP 주소와 해당 네트워크 마스크를 표시하는 방법
@@ -25,7 +24,6 @@
             - 퍼블릭 주소 : 글로벌 유니캐스트(2000::/3)
 - 같은 VPC면 통신 된다.(인바운드 및 아웃바운드 트래픽 필터링 필요 : 방화벽 서비스)
 - 0(network 주소), 1(디폴트), 2(라우터(도메인 네임 관리)), 3, 255(브로드캐스트 주소)
-![alt text](AWS_기반_네트워킹2.png)
 
 ## 리전->vpc->subnet->ec2
 - ec2 만들떄 public 여부 선택 가능
@@ -89,3 +87,7 @@
 
 ## ELB(Elastic load balancer)
 - VPC -> ELB -> 가용 영역 A, 가용 영역 B
+- CLB : Classic, EC2, L4, L7, 현재 사용 안함
+- ALB(Application, EC2가함) :  TCP 80, HTTP, HTTPS Header 값을 가지고, L7
+- NLB(network, HperPlane) : TCP, UDP
+- GLB(Gateway) : 서드파티 가상 어플라이언스 
